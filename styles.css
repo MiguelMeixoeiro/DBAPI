@@ -4,6 +4,7 @@ body{
     background-image:url('gokuhouse.jpg');
     background-size: cover;
     margin: 0;
+    font-family: 'Arial', sans-serif;
 }
 
 
@@ -119,4 +120,85 @@ z-index: 5;
 /* Agrega este estilo para ocultar elementos con la clase 'hidden' */
 .hidden {
     display: none;
+}
+/* Media query para dispositivos móviles */
+@media only screen and (max-width: 768px) {
+    body {
+        overflow: auto;
+    }
+
+    h1,
+    text,
+    #search-bar,
+    .musica,
+    .card,
+    .ficha,
+    #botont,
+    .heroe,
+    .descrip,
+    .ficha img,
+    #pagination,
+    .swiper-container {
+        /* Actualizar estos estilos según sea necesario para dispositivos móviles */
+        left: auto;
+        right: auto;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
+        text-align: center;
+    }
+
+    h1 {
+        left: 0;
+    }
+
+    text {
+        border: 2px solid black; /* Corregir error tipográfico en 'balck' */
+    }
+
+    #search-bar {
+        left: 0;
+    }
+
+    #search-input {
+        width: 80%; /* Ajustar el ancho según sea necesario */
+        box-sizing: border-box;
+    }
+
+    .musica {
+        left: 0;
+    }
+
+    .card {
+        width: 80%; /* Ajustar el ancho según sea necesario */
+    }
+
+    .ficha {
+        height: auto; /* Cambiar la altura a automática */
+    }
+
+    .heroe {
+        font-size: 3rem; /* Reducir el tamaño del texto */
+        left: 0;
+        top: 20px; /* Ajustar la posición superior según sea necesario */
+    }
+
+    .descrip {
+        left: 0;
+        top: 0;
+        width: 100%; /* Ajustar el ancho al 100% */
+    }
+
+    .ficha img {
+        zoom: 10%; /* Ajustar el nivel de zoom según sea necesario */
+        width: 100%; /* Ajustar el ancho al 100% */
+        height: auto; /* Cambiar la altura a automática */
+        border-radius: 0; /* Eliminar el redondeo de las esquinas si es necesario */
+    }
+
+    .swiper-container {
+        width: 100%; /* Ajustar el ancho al 100% */
+        height: auto; /* Cambiar la altura a automática */
+        top: 0;
+    }
 }
