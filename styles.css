@@ -1,0 +1,122 @@
+/* Estilos para la barra de búsqueda */
+body{
+    overflow:hidden;   
+    background-image:url('gokuhouse.jpg');
+    background-size: cover;
+    margin: 0;
+}
+
+
+
+
+
+h1{
+    position: relative;
+    left: 555px;
+    z-index: 5;
+}
+text{
+    color: yellow; /* Color del texto */
+    border: 2px solid balck;
+}
+#search-bar {
+    margin-bottom: 20px;
+    position: relative;
+    left: 475px;
+    z-index: 5;
+}
+
+#search-input {
+    padding: 8px;
+}
+
+
+
+.musica{
+position: relative;
+left: 450px;
+z-index: 5;
+}
+.card {
+    padding: 10px;
+    /* width: 200px; */
+    
+}
+.ficha{
+    background-color: transparent;
+    background-size: cover;
+    width: 100%;
+    height: 80%;
+    z-index: 3;
+}
+#botont{
+    position: absolute;
+    top:10px;
+    left: 30px;
+}
+.heroe{
+    font-size: 5rem;
+    left: 467px;
+    position: absolute;
+    top: 105px;
+    text-align: left;
+    z-index: 3;
+    background-color:transparent;
+    height: 10%;
+   
+}
+
+
+.descrip {
+    left: 320px;
+    position: absolute;
+    top: 288px;
+    text-align: center;
+    z-index: 3;
+    background-color: transparent;
+    width: 50%;
+    /* -webkit-text-stroke: 0.66px black; */
+    font-size: 21px;
+    color: yellow;
+}
+
+.ficha img{
+    zoom: 20%;
+    left: -52px;
+    position: relative;
+    top: -813px;
+    text-align: left;
+    z-index: 3;
+    background-image: url('spaciobolas.jpg');
+    width: 20%;
+    height: 50%;
+    background-size: cover;
+    border-radius: 8%;
+    
+}
+
+
+/* Estilos para la paginación */
+#pagination {
+    margin-top: 20px;
+}
+
+/* Estilos para el carrusel */
+.swiper-container {
+    width: 20%;
+    height: 50%;
+    background-color:transparent;
+    position: absolute;
+    right: 20px;
+    top: 227px;
+    z-index: 1;
+}
+
+.swiper-slide img {
+    width: 100%;
+    height: 100%;
+}
+/* Agrega este estilo para ocultar elementos con la clase 'hidden' */
+.hidden {
+    display: none;
+}

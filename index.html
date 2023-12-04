@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Agregar las siguientes metaetiquetas para la política de incrustación -->
+    <meta http-equiv="Cross-Origin-Embedder-Policy" content="credentialless">
+    <meta http-equiv="Cross-Origin-Resource-Policy" content="cross-origin">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BDAPI</title>
+    <link rel="icon" sizes="16x16 32x32 48x48" type="image/png" href="./bolad.jpg" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    
+    <h1>DB API</h1>
+    
+    <!-- Barra de búsqueda -->
+    <div id="search-bar">
+        <input type="text" id="search-input" placeholder="Ingresa tu búsqueda">
+        <button id="search-button">Buscar</button>
+    </div>
+    
+    <audio class="musica" id="audioPlayer" autoplay controls loop>
+        <source src="./musicafondo.mp3" type="audio/mp3">
+        Tu navegador no soporta la etiqueta de audio.
+    </audio>
+    
+    <!-- Contenedor de datos -->
+    <div id="data-container"></div>
+
+    <!-- Contenedor de transformaciones (inicialmente oculto) -->
+    <div id="switch-container" class="hidden"></div>
+
+    <!-- Paginación -->
+    <div id="pagination"></div>
+   
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./prueba.js"></script>
+    <script src="./server.js"></script>
+        
+        
+</html>
